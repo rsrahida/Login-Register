@@ -35,23 +35,29 @@
             </div>
           </div>
           <div class="sign-buttons">
-            <p class="sign">Login<a href="./login.html"> ></a></p>
+            <p class="sign">
+              <a href="./punch.html">< </a>Login<a href="./login.html"> ></a>
+            </p>
             <form id="signButtons">
               <input type="text" id="name" placeholder="Full Name" required />
+              <span class="error" id="nameError"></span>
               <input
                 type="text"
                 id="phone"
                 placeholder="Phone Number"
                 required
               />
+              <span class="error" id="phoneError"></span>
               <input type="text" id="email" placeholder="Email Id" required />
+              <span class="error" id="emailError"></span>
               <input
                 type="password"
                 id="password"
                 placeholder="Password"
                 required
               />
-              <button id="signButton">CREATE ACCOUNT</button>
+              <span class="error" id="passwordError"></span>
+              <button type="submit" id="signButton">CREATE ACCOUNT</button>
             </form>
           </div>
         </div>

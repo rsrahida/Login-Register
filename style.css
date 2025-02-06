@@ -156,7 +156,7 @@
         top: 215px;
         display: flex;
         flex-direction: column;
-        padding-top: 80px;
+        padding-top: 30px;
         align-items: center;
         .sign {
           font-size: 20px;
@@ -164,16 +164,21 @@
         }
         #signButtons {
           width: 250px;
-          margin-top: 30px;
+          margin-top: 10px;
           display: flex;
           flex-direction: column;
-          gap: 15px;
+          gap: 10px;
           input {
             width: 250px;
             height: 40px;
             border: 2px solid grey;
             border-radius: 30px;
             padding-left: 10px;
+          }
+          .error{
+            font-size: 10px;
+            font-weight: 600;
+            color: #5009f3;
           }
           #signButton {
             width: 250px;
@@ -230,7 +235,7 @@
         top: 215px;
         display: flex;
         flex-direction: column;
-        padding-top: 80px;
+        padding-top: 30px;
         align-items: center;
         .loginText {
           font-size: 20px;
@@ -238,10 +243,10 @@
         }
         #loginButtons {
           width: 250px;
-          margin-top: 30px;
+          margin-top: 10px;
           display: flex;
           flex-direction: column;
-          gap: 15px;
+          gap: 10px;
           input {
             width: 250px;
             height: 40px;
